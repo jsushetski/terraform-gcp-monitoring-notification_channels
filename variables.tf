@@ -25,7 +25,7 @@ variable "email_address" {
   default = null
 }
 
-variable "number" {
+variable "cell_number" {
   type    = string
   default = null
 }

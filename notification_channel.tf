@@ -5,7 +5,7 @@ resource "google_monitoring_notification_channel" "channel" {
   enabled      = var.enabled
   type         = var.channel_type
   labels = {
-    number        = var.number
+    number        = var.cell_number
     email_address = var.email_address
   }
 }
