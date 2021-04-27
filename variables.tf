@@ -10,7 +10,7 @@ variable "channel_type" {
 
 variable "display_name" {
   type        = string
-  description = "The display name for the notification channel.  This value will be prepended with '${channel_type}-'."
+  description = "The display name for the notification channel.  This value will be prepended with '{channel_type}-'."
 }
 
 variable "enabled" {
